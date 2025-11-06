@@ -1,6 +1,6 @@
 package domain
 
 type ConjugationResponse struct {
-	Verb         string                       `json:"verb"`
-	Conjugations map[string]map[string]string `json:"conjugations"`
+	Verb         string
+	Conjugations map[string]map[string]string
 }

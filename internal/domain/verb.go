@@ -16,7 +16,7 @@ const (
 )
 
 type Verb struct {
-	Name             string           `json:"name"`
-	ConjugationGroup ConjugationGroup `json:"group"`
-	ConjugationType  ConjugationType  `json:"type"`
+	Name             string
+	ConjugationGroup ConjugationGroup
+	ConjugationType  ConjugationType
 }
